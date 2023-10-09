@@ -25,6 +25,8 @@ html {
 	--h3: calc(var(--h4) * var(--scale));
 	--h2: calc(var(--h3) * var(--scale));
 	--h1: calc(var(--h2) * var(--scale));
+
+	--sans-serif: "Poppins", sans-serif;
 }
 
 html {
@@ -33,11 +35,13 @@ html {
 } /*16px*/
 
 body {
-	font-family: "Poppins", sans-serif;
-	font-weight: 300;
+	font-family: var(--sans-serif);
+	font-weight: 400;
 	line-height: 1.75;
 	font-size: var(--base-size);
 	color: var(--white);
+	padding: 0;
+	margin: 0;
 }
 
 h1,
@@ -130,4 +134,8 @@ a:hover {
 
 .black {
 	background-color: var(--black);
+}
+
+.club {
+	font-size: var(--h5);
 }
