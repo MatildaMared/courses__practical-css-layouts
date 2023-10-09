@@ -96,6 +96,10 @@ a {
 	color: var(--lime);
 }
 
+a:hover {
+	color: var(--cyan);
+}
+
 .lime {
 	background-color: var(--lime);
 }
