@@ -114,11 +114,17 @@
 		margin-top: -3px;
 		display: block;
 	}
+	main {
+		margin-bottom: 4rem;
+	}
+	footer {
+		text-transform: uppercase;
+		margin-top: 5rem;
+	}
 }
 @layer header {
 	.wrapper {
 		max-width: 375px;
-		border: 1px solid white;
 		margin: 0 auto;
 	}
 
