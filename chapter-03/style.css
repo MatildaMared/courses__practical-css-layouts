@@ -129,9 +129,6 @@
 		.wrapper {
 			max-width: 800px;
 		}
-		main > * {
-			border: 1px solid white;
-		}
 		main {
 			display: grid;
 			grid-template-columns: repeat(3, 1fr);
