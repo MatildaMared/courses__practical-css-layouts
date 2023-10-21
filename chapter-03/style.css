@@ -168,11 +168,11 @@
 		width: 18px;
 	}
 
-	@media(min-width: 800px) {
+	@media (min-width: 800px) {
 		aside {
 			display: grid;
 			grid-template-columns: repeat(3, 1fr);
-			gap: 1rem;
+			gap: 2rem;
 		}
 	}
 }
