@@ -137,6 +137,21 @@
 			grid-column: 1 / -1;
 		}
 	}
+
+	@media (min-width: 1200px) {
+		.wrapper {
+			display: grid;
+			grid-template-columns: 2fr 1fr;
+			grid-template-rows: repepat(4, 1fr);
+			gap: 0 2rem;
+		}
+		main {
+			grid-column: 2 / 3;
+			grid-row: 1 / 5;
+			display: block;
+			padding-top: 8rem;
+		}
+	}
 }
 @layer header {
 	header {
